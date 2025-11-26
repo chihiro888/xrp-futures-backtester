@@ -33,6 +33,16 @@
                 "SUPABASE_URL": "INSERT_YOUR_SUPABASE_URL_HERE",
                 "SUPABASE_KEY": "INSERT_YOUR_SUPABASE_ANON_KEY_HERE"
             }
+        },
+        "github": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-github"
+            ],
+            "env": {
+                "GITHUB_PERSONAL_ACCESS_TOKEN": "INSERT_YOUR_GITHUB_PERSONAL_ACCESS_TOKEN_HERE"
+            }
         }
     }
 }

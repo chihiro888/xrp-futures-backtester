@@ -50,5 +50,6 @@ To set up the Model Context Protocol (MCP) for Supabase integration:
 *   **supabase**: Project management (tables, etc.).
 *   **next-devtools**: Next.js runtime analysis.
 *   **supabase-data**: Direct database manipulation (PostgREST).
+*   **github**: GitHub repository integration.
 
 > **Note:** `.vscode/mcp.json` is gitignored to prevent accidental exposure of your secrets.
