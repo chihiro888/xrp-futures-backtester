@@ -44,6 +44,7 @@ To set up the Model Context Protocol (MCP) for Supabase integration:
     *   `SUPABASE_URL`: Your Supabase project URL.
     *   `SUPABASE_KEY`: Your Supabase Anon Key.
     *   `SUPABASE_ACCESS_TOKEN`: Your Supabase Personal Access Token (PAT). You can generate one [here](https://supabase.com/dashboard/account/tokens).
+    *   `GITHUB_PERSONAL_ACCESS_TOKEN`: Your GitHub Personal Access Token (PAT). Required for the `github` server.
 
 ### Available MCP Servers
 
