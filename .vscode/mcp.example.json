@@ -11,6 +11,28 @@
                 "SUPABASE_KEY": "INSERT_YOUR_SUPABASE_ANON_KEY_HERE",
                 "SUPABASE_ACCESS_TOKEN": "INSERT_YOUR_SUPABASE_ACCESS_TOKEN_HERE"
             }
+        },
+        "next-devtools": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "next-devtools-mcp"
+            ]
+        },
+        "supabase-data": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@supabase/mcp-server-postgrest",
+                "--apiUrl",
+                "INSERT_YOUR_SUPABASE_URL_HERE",
+                "--schema",
+                "public"
+            ],
+            "env": {
+                "SUPABASE_URL": "INSERT_YOUR_SUPABASE_URL_HERE",
+                "SUPABASE_KEY": "INSERT_YOUR_SUPABASE_ANON_KEY_HERE"
+            }
         }
     }
 }

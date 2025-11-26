@@ -45,4 +45,10 @@ To set up the Model Context Protocol (MCP) for Supabase integration:
     *   `SUPABASE_KEY`: Your Supabase Anon Key.
     *   `SUPABASE_ACCESS_TOKEN`: Your Supabase Personal Access Token (PAT). You can generate one [here](https://supabase.com/dashboard/account/tokens).
 
+### Available MCP Servers
+
+*   **supabase**: Project management (tables, etc.).
+*   **next-devtools**: Next.js runtime analysis.
+*   **supabase-data**: Direct database manipulation (PostgREST).
+
 > **Note:** `.vscode/mcp.json` is gitignored to prevent accidental exposure of your secrets.
